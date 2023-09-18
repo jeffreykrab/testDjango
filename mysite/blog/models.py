@@ -24,8 +24,8 @@ class Voetbalspelers(models.Model):
     Datum_aanpassing = models.DateTimeField(default=timezone.now)
     
     def publish(self):
-         self.published_date = timezone.now()
+         self.Invoer_datum = timezone.now()
          self.save()
     
     def __str__(self):
-        return self.title
+        return self.Naam_speler
