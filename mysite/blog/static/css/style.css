@@ -1,0 +1,40 @@
+body{
+    background-color: brown;
+    color: black;
+}
+
+header{
+    background-color: orange;
+    height: 150px;
+    padding: 40px;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-color: orange;
+    height: 150px;
+    padding: 30px;
+}
+
+div{
+    background-color: rgb(254, 205, 212);
+    width: 500px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+article{
+    background-color: rgb(254, 205, 212);
+    border: 3px solid white;
+} 
+
+a{
+    color:orange
+}
+
